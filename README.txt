@@ -1,3 +1,5 @@
+#Github URL
+https://github.com/Folasade/Infrasctructure-as-Code-Solutions
 
 #Project Title
 Deploy a high-availability web app using CloudFormation
@@ -30,6 +32,9 @@ networkinfraupdate.sh
 b. Infrastructure Diagram:
 networkdiagram.jpg
 
+ScreenShot of index.html
+itwork.jpg
+
 Parameters
 EnvironmentName, VpcCIDR, PublicSubnet1CIDR, PublicSubnet2CIDR, PrivateSubnet1CIDR, PrivateSubnet2CIDR, 
 
@@ -43,8 +48,8 @@ Working Test
 A page that says “it works! Udagram, Udacity”
 http://folau-webap-twcojrlk63up-1178997738.us-east-1.elb.amazonaws.com/
 
-Stack was deleted and created again with CloudFormation script without errors
+Stack was deleted and created again with CloudFormation script. The script runs without errors
 
 
-
+Github URL: https://github.com/Folasade/Infrasctructure-as-Code-Solutions
  
