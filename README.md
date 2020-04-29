@@ -1,24 +1,24 @@
-#Github URL
+# Github URL
 https://github.com/Folasade/Infrasctructure-as-Code-Solutions
 
-#Project Title
+# Project Title
 Deploy a high-availability web app using CloudFormation
 
-#Problem
+# Problem
 Your company is creating an Instagram clone called Udagram. Developers pushed the latest version of their code in a zip file located in a public S3 Bucket.
 
 You have been tasked with deploying the application, along with the necessary supporting software into its matching infrastructure.
 
 This needs to be done in an automated fashion so that the infrastructure can be discarded as soon as the testing team finishes their tests and gathers their results.
 
-#Solution
+# Solution
 Summary:
 An apache Web Server was deployed, code was picked up from S3 storage and deployed in the web folder on the web server. 
 
 First, an infrastructure diagram was developed which serves as visual aid to understand the CloudFormation script. 
 Second, instruction and infrastructure diagram were interpreted and a matching CloudFormation Script was created.
 
-#Files Attached to project submission
+# Files Attached to project submission
 a. Files containing the CloudFormation Scripts:
 servers.yml
 server-params.json
@@ -45,11 +45,10 @@ Outputs
 Network Resources, URL with the Load Balancer DNS Name and http in front of it  
 
 Working Test
-A page that says ìit works! Udagram, Udacityî
+A page that says ‚Äúit works! Udagram, Udacity‚Äù
 http://folau-webap-twcojrlk63up-1178997738.us-east-1.elb.amazonaws.com/
 
 Stack was deleted and created again with CloudFormation script. The script runs without errors
 
 
 Github URL: https://github.com/Folasade/Infrasctructure-as-Code-Solutions
- 
